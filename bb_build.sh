@@ -44,7 +44,6 @@ compile_kernel ()
 echo -e "$White***********************************************"
 echo "         Compiling BlackBox kernel             "
 echo -e "***********************************************$nocol"
-rm $KERN_IMG
 make cyanogenmod_tomato-64_defconfig
 make menuconfig
 make -j4
